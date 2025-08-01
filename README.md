@@ -1,4 +1,4 @@
-# sanyukta183-Object_detection_in_autonomous_vehicle_using_KITTI_and_BDD100K_dataset
+# Object_detection_in_autonomous_vehicle_using_KITTI_and_BDD100K_dataset
 
 ## YOLO V5s Bdd100k training
 
