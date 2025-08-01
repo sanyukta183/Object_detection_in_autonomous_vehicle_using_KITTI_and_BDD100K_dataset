@@ -25,7 +25,6 @@ BerkeleyDeepDrive100K (BDD100K) is an open-source dataset for autonomous driving
 The data collection was done in four different locations (of which three are in the vicinity of each other), that is: 
 San Francisco, Berkeley, Bay Area, and New York. The areas of data collection have been illustrated below: 
 
-![image](https://user-images.githubusercontent.com/96207926/207092396-b36e2462-9996-4fab-8168-5794445d5572.png)
 
 The dataset contains extensive annotations regarding the weather type, scene, hours, therefore it can be used for many learning tasks, including object detection, various types of segmentation, lane marking, object tracking, pose estimation, etc.
 
