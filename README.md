@@ -1,8 +1,7 @@
 # Object_detection_in_autonomous_vehicle_using_KITTI_and_BDD100K_dataset
 
-# YOLOv8 for KITTI Benchmark 
 
-🚀 **Supercharge your Object Detection on KITTI with YOLOv8!**
+**Train your Object Detection on KITTI with YOLOv8!**
 
 Welcome to the YOLOv8_KITTI project. This repository is dedicated to training and fine-tuning the state-of-the-art YOLOv8 model specifically for KITTI dataset, ensuring superior object detection performance.
 
