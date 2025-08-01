@@ -87,11 +87,6 @@ Person_sitting       3769        136      0.433    0.00735     0.0748     0.0343
 Speed: 0.0ms preprocess, 6.0ms inference, 0.0ms loss, 0.3ms postprocess per image
 ```
 
-<div style="display: flex; justify-content: space-between;">
-    <img src="./img/R_curve.png" alt="Image 1" style="width: 49%; margin-left: 5px;">
-    <img src="./img/P_curve.png" alt="Image 2" style="width: 49%; margin-right: 5px;">
-</div>
-
 ### Prediction
 Use the following command to predict the test set on KITTI using the trained model. You can download the trained model from [this section](#4-trained-model).
 
