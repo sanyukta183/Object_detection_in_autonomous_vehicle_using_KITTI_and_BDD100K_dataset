@@ -19,6 +19,24 @@ pip install -r requirements.txt
 
 ### Set up datasets
 
+## BDD100k
+
+BerkeleyDeepDrive100K (BDD100K) is an open-source dataset for autonomous driving that consists of 100,000 HD videos that were recorded under different road and weather conditions, as well as at different times and seasons [(Yu et al. 2020)](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_BDD100K_A_Diverse_Driving_Dataset_for_Heterogeneous_Multitask_Learning_CVPR_2020_paper.pdf). Each video lasts about 40 seconds, has 720p resolution at 30 frames per second. 
+The data collection was done in four different locations (of which three are in the vicinity of each other), that is: 
+San Francisco, Berkeley, Bay Area, and New York. The areas of data collection have been illustrated below: 
+
+![image](https://user-images.githubusercontent.com/96207926/207092396-b36e2462-9996-4fab-8168-5794445d5572.png)
+
+The dataset contains extensive annotations regarding the weather type, scene, hours, therefore it can be used for many learning tasks, including object detection, various types of segmentation, lane marking, object tracking, pose estimation, etc.
+
+The data and annotations can be obtained [here](https://bdd-data.berkeley.edu/) after logging in and agreeing to the BDD100K license. 
+The authors provided the data available for downloading in different subsets, depending on particular task that one wants to undertake.
+For example, it is possible to download 100,000 images, which are the frames at the 10th second in the videos, or download files that are dedicated for specific task.
+
+GitHub Repository of the dataset can be found [here](https://github.com/bdd100k/bdd100k).
+
+## KITTI Dataset
+
 #### 1. Set up workspace
 Download [KITTI](https://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d) dataset and add a link to the data directory. Your datasets path is the disk directory that stores datasets and your project path is current path.
 ```
